@@ -1,0 +1,126 @@
+baseURL = 'https://stories.tmlwu.net/'
+languageCode = 'zh-TW'
+title = 'Trevor is ppl'
+theme = 'PaperMod'
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+googleAnalytics = "UA-123-45"
+pygmentsUseClasses = true
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "Trevor is ppl"
+description = "Trevor's not that tech blog"
+keywords = [ "Blog", "Portfolio", "PaperMod" ]
+author = "拆吊床"
+images = [ "<link or path of image for opengraph, twitter-cards>" ]
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = false
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = false
+ShowCodeCopyButtons = true
+ShowWordCount = false
+ShowRssButtonInSectionTermList = false
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = true
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
+
+  [params.assets]
+  favicon = "<link / abs url>"
+  favicon16x16 = "<link / abs url>"
+  favicon32x32 = "<link / abs url>"
+  apple_touch_icon = "<link / abs url>"
+  safari_pinned_tab = "<link / abs url>"
+
+  [params.label]
+  text = "Home"
+  icon = "/apple-touch-icon.png"
+  iconHeight = 35
+
+  [params.profileMode]
+  enabled = false
+  title = "trevor is ppl"
+  subtitle = "life is short, so let's write it down"
+  imageUrl = "https://www.gravatar.com/avatar/0e349bbceaf75f4a7f28a1c826182d7d"
+  imageWidth = 120
+  imageHeight = 120
+  imageTitle = "my image"
+
+    [[params.profileMode.buttons]]
+    name = "👀 View Posts"
+    url = "posts"
+
+  [params.homeInfoParams]
+  Title = "👈 Get out"
+  Content = "Just kidding, welcome to the headquarter of my \"not that tech\" blog"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/MrNegativeTW/"
+
+  [[params.socialIcons]]
+  name = "instagram"
+  url = "https://www.instagram.com/mrtrevorwu/"
+
+  [[params.socialIcons]]
+  name = "unsplash"
+  url = "https://unsplash.com/@mrnegativetw/"
+
+[params.analytics.google]
+SiteVerificationTag = "XYZabc"
+
+[params.analytics.bing]
+SiteVerificationTag = "XYZabc"
+
+[params.analytics.yandex]
+SiteVerificationTag = "XYZabc"
+
+  [params.cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = true
+
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = [ "title", "permalink", "summary", "content" ]
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 10
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "txwtechstudio"
+name = "TechBlog"
+url = "https://mrnegativetw.github.io/"
+weight = 20
+
+[markup.highlight]
+noClasses = false
