@@ -7,7 +7,7 @@ enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
-googleAnalytics = "UA-123-45"
+googleAnalytics = "G-1RBQPF4PMV"
 pygmentsUseClasses = true
 
 [minify]
@@ -82,7 +82,7 @@ tocopen = false
   url = "https://unsplash.com/@mrnegativetw/"
 
 [params.analytics.google]
-SiteVerificationTag = "XYZabc"
+SiteVerificationTag = "G-1RBQPF4PMV"
 
 [params.analytics.bing]
 SiteVerificationTag = "XYZabc"
